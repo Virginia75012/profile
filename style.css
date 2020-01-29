@@ -1,0 +1,105 @@
+/* COLORS
+  #effcef
+  #ccedd2
+  #94d3ac
+  655c56 */
+
+body {
+  background-color: #effcef;
+  color: #575F7D;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#btn {
+  border: 1px #94d3ac;
+  border-radius: 5px;
+  background-color: #94d3ac;
+  padding: 15px 30px;
+  color: #575F7D;
+  font-weight: 700;
+  width: 50px;
+}
+
+#btn:hover {
+  background-color: #575F7D;
+  color: #effcef;
+  transition: 1s;
+}
+
+ul {
+  padding: 0 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+a.link-deco {
+  font-size: 45px;
+  color: #94d3ac;
+}
+
+a.link-deco:hover {
+  color: #575F7D;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* QUERIES*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
